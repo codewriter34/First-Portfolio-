@@ -1,0 +1,160 @@
+
+.container{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50%;
+    }
+    
+    .skills h2{
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        color: #fff;
+        padding: 2px;
+        font-size: 16px;
+    }
+    .progress-bar{
+        background: #959595;
+        width: 600px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 10px;
+        border-radius: 5px;
+        width: 0%;
+    }
+    
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -15px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .html{
+        background-color: #e91e63;
+        animation: html 1s linear forwards;
+        width: 88%;
+    }
+    .css{
+        background-color: #cddc39;
+        animation: css 1s linear forwards;
+        width: 80%;
+    }
+    .java{
+        background-color: #00bcd4;
+        animation: java 1s linear forwards;
+    }
+    .php{
+        background-color: #ffeb3b;
+        animation: php 1s linear forwards;
+    }
+    .cpro{
+        background-color: #9c27b0;
+        animation: cpro 1s linear forwards;
+    }
+    .nett{
+        background-color: #27b080;
+        animation: nett 1s linear forwards;
+    }
+    .net{
+        background-color: #b07527;
+        animation: net 1s linear forwards;
+    }
+    .jav{
+        background-color: #27b037;
+        animation: jav 1s linear forwards;
+    }
+    .nettt{
+        background-color: #2760b0;
+        animation: nettt 1s linear forwards;
+    }
+    .html span{
+        border: 1px solid #e91e63;
+    }
+    .css span{
+        border: 1px solid #cddc39;
+    }
+    .java span{
+        border: 1px solid #00bcd4;
+    }
+    .cpro span{
+        border: 1px solid #9c27b0;
+    }
+    @keyframes html{
+        100%{
+            width: 100%;
+        }
+    }
+    @keyframes css{
+        100%{
+            width: 95%;
+        }
+    }
+    @keyframes java{
+        100%{
+            width: 70%;
+        }
+    }
+    @keyframes nett{
+        100%{
+            width: 80%;
+        }
+    }
+    @keyframes nettt{
+        100%{
+            width: 50%;
+        }
+    }
+    @keyframes php{
+        100%{
+            width: 90%;
+        }
+    }
+    @keyframes net{
+        100%{
+            width: 50%;
+        }
+    }
+    @keyframes cpro{
+        100%{
+            width: 15%;
+        }
+    }
+    @keyframes jav{
+        100%{
+            width: 55%;
+        }
+    }
+
+@media(max-width:480px) {
+  
+    .container{
+        
+        margin-left: 0;
+    }
+    .progress-bar{
+        width: 400px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    .progress-bar div{
+        height: 10px;
+        border-radius: 5px;
+        width: 0%;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    
+}
